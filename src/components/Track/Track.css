@@ -1,0 +1,51 @@
+.Track {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.3);
+}
+
+.Track-action {
+  cursor: pointer;
+  padding: .5rem;
+  font-size: 1.05rem;
+  transition: color .25s;
+}
+
+.Track-action:hover {
+  color: rgba(265, 265, 265, .5);
+}
+
+.Track-information {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 72px;
+}
+
+.Track-information .image-container {
+  height: 60px;
+  width: 60px;
+  margin-top: 6px;
+}
+.Track-information .image-container img {
+  align-self: center;
+  width: 100%;
+}
+.Track-information .track-info-text {
+  flex: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+  justify-content: center;
+}
+
+.Track-information .track-info-text h3 {
+  margin-bottom: .22rem;
+}
+
+.Track-information .track-info-text p {
+  font-size: .83rem;
+  font-weight: 300;
+  color: rgba(256, 256, 256, 0.8);
+}
